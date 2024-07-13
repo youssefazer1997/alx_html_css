@@ -1,0 +1,258 @@
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+  background-image: url("./imgs/images/headphones_hero_1.jpg");
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 871px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 200px;
+  padding-top: 30px;
+}
+
+nav img {
+  width: 161px;
+  height: 32px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 50px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  height: 800px;
+  color: #ffffff;
+  gap: 50px;
+}
+
+.first-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.first-title h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.first-title h5 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.first-button {
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff6565;
+  font-weight: 500;
+}
+
+.first-description {
+  text-align: center;
+  font-weight: 200;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  color: #071629;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  padding: 0px;
+}
+
+.second-title {
+  color: #071629;
+  font-size: 36px;
+  font-weight: bold;
+}
+.second-description {
+  color: #071629;
+  font-size: 16px;
+}
+.second-cards-section {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 200px;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 210px;
+  height: 180px;
+}
+.card-description {
+  color: #071629;
+  font-size: 14px;
+}
+
+.third-section {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("imgs/images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.third-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+}
+.third-description {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.third-stats-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
+
+.stat {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.stat-img {
+  width: 190px;
+  height: 190px;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.perc-stat-text {
+  font-size: 46px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.desc-stat-text {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  color: #071629;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.fourth-title {
+  color: #071629;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.fourth-button {
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff6565;
+  font-weight: 500;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.form-element {
+  border: none;
+  outline: none;
+  border-bottom: #071629;
+}
+
+.form-element input {
+  border: none;
+  outline: none;
+  width: 330px;
+  border-bottom: 1px solid #979797;
+}
+
+.form-element ::placeholder {
+  font-weight: bold;
+  font-size: 16px;
+  color: #071629;
+}
