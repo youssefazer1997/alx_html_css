@@ -46,6 +46,15 @@ nav ul {
   font-weight: bold;
 }
 
+nav li:hover {
+  color: #ff6565;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 200;
+  left: 200;
+}
 .first-section {
   display: flex;
   flex-direction: column;
@@ -61,7 +70,7 @@ nav ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   font-weight: bold;
 }
@@ -89,7 +98,7 @@ nav ul {
 
 .first-description {
   text-align: center;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .second-section {
@@ -116,9 +125,9 @@ nav ul {
 .second-cards-section {
   display: flex;
   flex-direction: row;
-  width: 1000px;
   height: 200px;
   justify-content: space-around;
+  gap: 100px;
 }
 
 .card {
@@ -134,7 +143,7 @@ nav ul {
 }
 
 .card-image:hover {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 .card-description:hover {
   color: #ff6565;
@@ -156,6 +165,7 @@ nav ul {
   color: #ffffff;
   font-size: 36px;
   font-weight: bold;
+  text-align: center;
 }
 .third-description {
   color: #ffffff;
@@ -165,7 +175,7 @@ nav ul {
 }
 
 .stat-text:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .third-stats-section {
   display: flex;
@@ -300,4 +310,114 @@ footer p {
   width: 150px;
   height: 15px;
   font-size: 12px;
+}
+/* @media all and (max-width: 1000px) {
+  .third-stats-section {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+  .first-section {
+    height: auto;
+    padding: 20px;
+  }
+  .second-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .third-section {
+    height: auto;
+    padding: 20px;
+  }
+  .fourth-section {
+    height: auto;
+    padding: 20px;
+  }
+  .footer-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+} */
+
+@media all and (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0%;
+  }
+  .background-image {
+    width: 100%;
+    height: 690px;
+  }
+  .first-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .first-title h1 {
+    font-size: 24px;
+    align-items: center;
+  }
+
+  .first-title h5 {
+    font-size: 14px;
+  }
+
+  .second-section {
+    height: auto;
+    padding-top: 80px;
+    padding: 20px;
+  }
+
+  .second-cards-section {
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    height: auto;
+  }
+  .card {
+    justify-content: space-evenly;
+  }
+  .third-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .third-stats-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .stat {
+    flex-direction: column;
+    height: auto;
+  }
+  .fourth-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-element input {
+    width: 100%;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
